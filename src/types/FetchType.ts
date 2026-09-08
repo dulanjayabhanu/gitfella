@@ -1,0 +1,1 @@
+export type AllPageFetchType = "followers" | "following"

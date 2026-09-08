@@ -1,0 +1,1 @@
+export type DateStyle = "SHORT" | "LONG" | "FULL" | "WITH_TIME"
