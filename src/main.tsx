@@ -9,6 +9,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import Router from "@/routes/Router.tsx"
 import UserSessionProvider from "@/context/UserSessionProvider.tsx"
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const client = new QueryClient()
 const router = Router()
@@ -21,6 +22,7 @@ createRoot(document.getElementById("root")!).render(
           <TooltipProvider>
             <RouterProvider router={router} />
             <Analytics />
+            <SpeedInsights />
           </TooltipProvider>
         </ThemeProvider>
       </UserSessionProvider>

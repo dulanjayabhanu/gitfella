@@ -18,9 +18,9 @@ Gitfella does not have a backend server or database. No data you provide or that
 
 All data displayed in Gitfella comes directly from GitHub's public API. GitHub's own [Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) governs how GitHub itself handles that data.
 
-## Analytics
+## Analytics and Performance Monitoring
 
-Gitfella uses [Vercel Analytics](https://vercel.com/analytics) to understand basic usage patterns, such as page views. Vercel Analytics is privacy-focused and does not use cookies or collect personally identifiable information. For more details, see [Vercel's Privacy Policy](https://vercel.com/legal/privacy-policy).
+Gitfella uses Vercel Analytics and Vercel Speed Insights to understand basic usage patterns and monitor page performance, such as page views and load times. Both are privacy focused and do not use cookies or collect personally identifiable information. For more details, see [Vercel's Privacy Policy](https://vercel.com/legal/privacy-policy).
 
 Gitfella does not use any other analytics, tracking, or advertising services.
 
