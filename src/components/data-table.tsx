@@ -218,7 +218,7 @@ const columns = columnHelper.columns([
         }
         nativeButton={false}
       >
-        Link <ExternalLink />
+        View Repos <ExternalLink />
       </Button>
     ),
   }),
@@ -238,7 +238,7 @@ const columns = columnHelper.columns([
         }
         nativeButton={false}
       >
-        Link <ExternalLink />
+        View Followers <ExternalLink />
       </Button>
     ),
   }),
@@ -258,7 +258,7 @@ const columns = columnHelper.columns([
         }
         nativeButton={false}
       >
-        Link <ExternalLink />
+        View Followings <ExternalLink />
       </Button>
     ),
   }),
@@ -279,11 +279,7 @@ const columns = columnHelper.columns([
           <span className="sr-only">Open menu</span>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end" className="w-32">
-          <DropdownMenuItem
-            onClick={() =>
-              handleCopyToClipboard(row.original)
-            }
-          >
+          <DropdownMenuItem onClick={() => handleCopyToClipboard(row.original)}>
             Make a copy
           </DropdownMenuItem>
         </DropdownMenuContent>

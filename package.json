@@ -1,7 +1,7 @@
 {
   "name": "gitfella",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Check your GitHub followers and following. See who doesn't follow you back, and who does.",
   "author": "Dulanjaya Bhanu",
