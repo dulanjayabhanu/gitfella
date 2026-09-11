@@ -60,7 +60,7 @@ const LoginPage = () => {
         <CardHeader className="text-center">
           <CardTitle className="text-xl">Sync with GitHub</CardTitle>
           <CardDescription>
-            Enter your email below to create your account
+            Enter your GitHub username to get started.
           </CardDescription>
         </CardHeader>
         <CardContent className="pt-4">
@@ -95,8 +95,7 @@ const LoginPage = () => {
                 >
                   {isFetching ? (
                     <div className="flex flex-row items-center justify-center gap-2">
-                      <LoadingSpinner />{" "}
-                      <span>Syncing...</span>
+                      <LoadingSpinner /> <span>Syncing...</span>
                     </div>
                   ) : (
                     "Sync Now"
