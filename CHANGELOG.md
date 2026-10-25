@@ -11,6 +11,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.0.2] - 2026-10-25
+
+### Security
+
+- Updated dependencies to resolve vulnerabilities flagged by GitHub security alerts
+
+---
+
+## [1.0.1] - 2026-09-11
+
+### Fixed
+
+- Improved clarity of data table link labels for Repositories, Followers, and Following columns, replacing generic "Link" text with descriptive labels
+- Updated the login page description to accurately reflect Gitfella, replacing leftover default placeholder text
+
+---
+
 ## [1.0.0] - 2026-09-08
 
 ### Added
